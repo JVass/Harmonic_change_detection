@@ -17,5 +17,7 @@ The baseline/spine for our experiments are implemented. The procedure can be des
 
 ## To-Do
 1. Implement the Hainsworth peak finder algorithm.
-2. Introduce the NNLS Chromagram algorithm from the vamp package.
-3. Implement the Hainsworth paper and reproduce its results
+2. Add a function to read the song/annotations pair to automate the experiment
+3. Add a function to write the results in a csv format like the one that is used on the papers for ease of comparison.
+4. Introduce the NNLS Chromagram algorithm from the vamp package.
+5. Implement the Hainsworth paper and reproduce its results.
