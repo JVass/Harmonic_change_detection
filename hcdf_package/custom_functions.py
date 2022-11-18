@@ -13,6 +13,9 @@ class annotations():
     """
     To Do
     Add the frequency sampling rate as a parameter
+
+    The annotations contain an N symbol for Non-Harmonic part. But we have found that some of the chord changes are different from the ones that
+    were reported by Harte and Sandler.
     """
     def __init__(self, path_to_annotations = "./annotations/"):
         self.song_names = os.listdir(path_to_annotations)
